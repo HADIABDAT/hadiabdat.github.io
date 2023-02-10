@@ -1,0 +1,105 @@
+.initial{
+  width: 100%;
+}
+#menu{
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+p{
+  margin: 10px;
+  padding: 5px;
+}
+#one{
+  background-color: gray;
+  border: solid black;
+  margin: 10px;
+  margin-left: 20px;
+  width: 31%;
+  float: left;
+  overflow: auto;
+
+}
+#two{
+  background-color: gray;
+  border: solid black;
+  margin: 10px;
+  width: 31% ;
+  float: left;
+  overflow: auto;
+  
+}
+#three{
+  background-color: gray;
+  border: solid black;
+  width: 31%;
+  margin: 10px;
+  float: left;
+  overflow: auto;
+}
+#chicken{
+  background-color: rgb(228, 149, 165);
+  width: 35%;
+  height: 40px;
+  border: solid black;
+  margin: 0%;
+  position: relative;
+  left: 65%;
+  bottom : 5%;
+  text-align: center;
+  overflow: hidden;
+}
+#beef{
+  background-color: rgb(248, 87, 87);
+  width: 35%;
+  height: 40px;
+  border: solid black;
+  margin: 0%;
+  position: relative;
+  left: 65%;
+  bottom : 5%;
+  text-align: center;
+  overflow: hidden;
+}
+#sushi{
+  background-color: rgb(213, 236, 78);
+  width: 35%;
+  height: 40px;
+  border: solid black;
+  margin: 0%;
+  position: relative;
+  left: 65%;
+  bottom : 5%;
+  text-align: center;
+  overflow: hidden;
+}
+@media (min-width: 992px){
+  #one,#two,#three{
+    float: left;
+    width: 30%;
+  }
+}
+@media(max-width: 991px ){
+  #one,#two,#three{
+    float: left;
+  }
+  #one{
+    width: 44%;
+  }
+  #two{
+    width: 44%;
+  }
+  #three{
+    margin-left: 18px;
+    width: 91%;
+  }
+}
+@media (max-width: 767px){
+  #one,#two,#three{
+    float: left;
+    width: 90%;
+  }
+  #three,#two{
+    margin-left: 20px;
+  }
+}
